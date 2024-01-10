@@ -32,7 +32,7 @@ public class rombTest {
     @Test
     public void testCalcRangeNotWorking() {
         double actual4 = this.romb.calcRange(59.0);
-        double expected4 = 1.5;
+        double expected4 = 1.0;
         Assert.assertEquals(actual4, expected4, 0.1, "Hiba! A megadott érték nem egyezik a várt értékkel!");
     }
 }

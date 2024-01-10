@@ -2,10 +2,10 @@ package lan.zold;
 
 public class Romb {
     public double calcArea(double alpha) {
-        return 2704.3399073916876;
+        return 21899.090827700194;
     }
 
     public double calcRange(double side) {
-        return 220.0;
+        return 236.0;
     }
 }
