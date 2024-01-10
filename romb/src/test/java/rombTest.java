@@ -13,8 +13,8 @@ public class rombTest {
     }
     @Test
     public void testCalcArea() {
-        double actual = this.romb.calcArea(90.0);
-        double expected = 2704.3399073916876;
+        double actual = this.romb.calcArea(27.0);
+        double expected = 21899.090827700194;
         Assert.assertEquals(actual, expected, 0.1, "Hiba! A megadott érték nem egyezik a várt értékkel!");
     }
     @Test
